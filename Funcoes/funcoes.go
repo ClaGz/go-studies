@@ -27,6 +27,8 @@ func main() {
 	fmt.Println(resultado)
 
 	resultadoSoma, resultadoSubtracao := calculosMatematicos(10, 15)
+	resultadoSomaDois, _ := calculosMatematicos(20, 25)
 
+	fmt.Println(resultadoSomaDois)
 	fmt.Println(resultadoSoma, resultadoSubtracao)
 }
